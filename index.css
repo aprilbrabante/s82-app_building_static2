@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+    font-family: "Raleway", sans-serif!important;
+}
+
+navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 221, 87, 0.2);
+    border-radius: 5px;
+}
+
+.custom-navbar {
+    background-color: #1e3a8a !important;
+}
+
+.logo-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 0;   /* removes rounding */
+    object-fit: cover;  /* keeps image from stretching */
+    margin-right: 8px;
+}
+
+.content-box {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    margin-left: 20px; /* optional small spacing from left */
+}
+
+
+/* .main {
+    background: url(./images/me.png)no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+} */
+
+/* .main {
+    background-color: whitesmoke;
+} */
+
+.main {
+    background-image: url("./images/hands-typing-code-on-laptop.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;    
+    opacity: 1;
+}
+
+#profilePic {
+    background: url(./images/me.png)no-repeat;
+    background-size: contain;
+    /* background-color: red; */
+    background-position: center;
+    min-height: 500px;   
+    /* border-radius: 100%; */
+}
+
+.main h3, h1 {
+    color: #1E3A8A;
+}
+
+.main p {
+    color: #0A2540; /* Navy Blue for readability */
+    line-height: 1.6;
+}
+
+.main h6 {
+    color: #ED5565;
+}
+
+.main .bt1 {
+    background-color: #ffdd57;   /* gold */
+    color: #000000;              /* black text */
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.main .bt1:hover {
+    background-color: #f1c93b;   /* slightly darker gold */
+    color: #000000;
+    text-decoration: none;
+}
+
+.featured h2 {
+    color: #1E3A8A;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.9); /* glass effect */
+    padding: 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card h5 {
+    color: #1A73E8; /* modern educational blue */
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #0A2540; /* readable dark text */
+    line-height: 1.5;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+.category-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card h5 {
+    color: #1A73E8; /* modern educational blue */
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+.category-card ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+.category-card li {
+    margin-bottom: 8px;
+    color: #0A2540;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+.subtitle {
+    color: #1E3A8A;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+
+
+/* .main .bt1 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 32px;
+	border-radius: 999px;
+}
+
+.main .bt1:hover {
+    background-color: rgb(202, 18, 95);
+    transition: 0.5s;
+} */
+
+/* #profilePic {
+    max-height: 600px;
+} */
+
+.main img {
+    box-shadow: 10px 10px 5px 0px rgba(219,178,178,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(219,178,178,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(219,178,178,0.75);
+}
+
+.progress {
+    background-color: rgb(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: #ED5565;
+    height: 25px;
+    width: 0;
+}
+
+.progress p {
+    color: white;
+    padding-left: 20px!important;
+
+}
+
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 98%;
+    }
+}
+
+#submit {
+	color: #FFFFFF;
+    font-weight: bold;
+	padding: 12px 32px;
+	border-radius: 999px;
+	background-color: rgb(202, 18, 95);
+}
+
+footer {
+	background: #1e3a8a;
+	line-height: 100%;
+
+}
+
+.section-color {
+    color: #48CFAD;
+}
